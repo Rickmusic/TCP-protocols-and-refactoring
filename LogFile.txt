@@ -1,0 +1,57 @@
+
+C:\Users\Austin Wattling\Documents\University\Current\CPSC 501 (Advanced Programming)\Assignment1\Repository>git log
+commit f15d1f8724b1ce5aeb4a8950079b0803512c3fbd
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 23:35:19 2016 -0600
+
+    Removed unused imports to catalog class
+
+commit b8073e9ecd42609b2bbd938b364d78d137a327f9
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 23:32:10 2016 -0600
+
+    Various local name changes. Changed the catalog file save to more
+    apporiate name "cache" save. Changed all "URL" String tags to "url"
+    instead of having a mix. Final commenting and cleaning on project
+
+commit ee98a2e80ad39e8005a6d623a1c12cbad0f88516
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 21:04:14 2016 -0600
+
+    Divided up the workload of the conditionalDownloadURL method in class
+    TCP Client. This method was extremely large and was divided into a
+    method specifically for opening a socket connection a method to parse
+    the URL and the conditonalDownload Method now only handles the actual
+    HTTP IO.
+
+commit aa1a569e3eb97c35e94124877e1792ee54c863b1
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 20:49:56 2016 -0600
+
+    Removed duplicate code in TCPClient. This was very repetitive code that
+    was solved using a simple if statement. Resulted in the loss of the
+    TimeDownloadURL methods for one method ConditionalDownloadURL. Also
+    unintentionally solved a little bit of shotgun Surgery.
+
+commit 6fe2764928ceca1ee77ba2eee0b0da27be0cf874
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 20:34:01 2016 -0600
+
+    Slimed down the bloated large class that was UrlCache and created the
+    class TCPClient the should handle the all the HTTP protocol and Internet
+    retrieval stuff.
+
+commit 7fe0a76248b69b038bdbef9c7d1ff24eee391520
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 20:07:37 2016 -0600
+
+    Removed Lazy class FileIO and allowed class catalog to handle all the IO
+    stuff that FileIO did before.
+
+commit fa7dbd17322eb19b9c4f07c5fc8045f94176d3b0
+Author: Austin Wattling <Austin Wattling@Cindy>
+Date:   Thu Oct 13 20:01:53 2016 -0600
+
+    Initial Import
+
+C:\Users\Austin Wattling\Documents\University\Current\CPSC 501 (Advanced Programming)\Assignment1\Repository>
